@@ -1,0 +1,11 @@
+# с компа на репозиторий
+git status
+git add название файла
+git commit -m "коментарий к комиту"
+git push
+
+# с репозитория на комп
+git fetch
+git status
+git pull
+
