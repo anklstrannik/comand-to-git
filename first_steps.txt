@@ -40,3 +40,9 @@ git remote add newRepository https://github.com/Andreygribin1/test1.git - доб
 git remote rename старое название новое название - переименовать репозиторий удаленно
 git remote rm имя репозитория - удалить репозиторий
 git remote set-url origin git@github.com:vicman-wi/wi-backend.git - установить URL гитхаба
+
+# создание ssh key
+cd ~/.ssh
+ssh-keygen -t rsa -C "NAME"
+потом просто ENTER ENTER
+cat ~/.ssh/id_rsa.pub
