@@ -42,10 +42,17 @@ git remote rm имя репозитория - удалить репозитор�
 git remote set-url origin git@github.com:vicman-wi/wi-backend.git - установить URL гитхаба
 
 # создание ssh key
-ssh-keygen -t rsa -C “GitLogin”
+<<<<<<< HEAD
+cd ~/.ssh
+ssh-keygen -t rsa -C "NAME"
+потом просто ENTER ENTER
+cat ~/.ssh/id_rsa.pub
 
 
 git config --global user.name “Username”
 git config --global user.email “GitEmail”
 
 git config --global user.email
+
+
+
